@@ -1,0 +1,20 @@
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		int a,b;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the value of first number1");
+		a=sc.nextInt();
+		if ((a%4==0 && a%100!=0)|| a%400==0)
+		{
+		    System.out.println("leap");
+		}
+		else{
+		    System.out.println("nn");
+		}
+		
+		
+	}
+}
